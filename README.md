@@ -1,1 +1,1 @@
-Firework simulation
+Fireworks simulation
