@@ -34,7 +34,7 @@ class Particle {
     c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false)
     c.fillStyle = this.color
     c.shadowColor = this.color
-    c.shadowBlur = 20
+    c.shadowBlur = 10
     c.fill()
     c.closePath()
     c.restore()
@@ -47,7 +47,7 @@ class Particle {
     this.velocity.y += gravity
     this.x += this.velocity.x
     this.y += this.velocity.y
-    this.alpha -= 0.005
+    this.alpha -= 0.008
   }
 }
 
